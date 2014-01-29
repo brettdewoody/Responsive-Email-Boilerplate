@@ -50,7 +50,7 @@
 	span.yshortcuts:active,
 	span.yshortcuts:focus {color:#000; background-color:none; border:none;}
 	
-	.widthfix {
+	.autofitkiller {
 		
 		min-width:650px !important;
 		
@@ -66,7 +66,7 @@
 				width:100%;
 			}
 			
-			body[yahoo] .widthfix {
+			body[yahoo] .autofitkiller {
 			
 				width:100%;
 				min-width:440px !important;
@@ -83,7 +83,7 @@
 				width:100%;
 			}
 			
-			body[yahoo] .widthfix {
+			body[yahoo] .autofitkiller {
 			
 				width:100%;
 				min-width:340px !important;
@@ -107,13 +107,17 @@
 				<tr>
 					<td width="100%">
 			
-						<!-- Start Header-->
+						
 						<table width="650" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#000000">
+							<!-- Start Autofit Killer-->
 							<tr>
 								<td>
-									<img src="http://placehold.it/650x1/000000/FFFFFF/&text=" class="widthfix" />
+									<img src="http://placehold.it/650x1/000000/FFFFFF/&text=" class="autofitkiller" />
 								</td>
 							</tr>
+							<!-- End Autofit Killer -->
+							
+							<!-- Start Header-->
 							<tr>
 								<td width="100%" bgcolor="#000000">
 			
@@ -147,8 +151,8 @@
 			                            
 								</td>
 							</tr>
+							<!-- End Header -->
 						</table>
-						<!-- End Header -->
 						
 						<!-- Two Column - Images - Left over Right -->
 						<table width="650" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#eeeeed">
