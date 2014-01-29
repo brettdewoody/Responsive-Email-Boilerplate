@@ -5,7 +5,7 @@ A responsive email template to jumpstart your next HTML email project. It uses m
 
 **Features**
 
-* 2-Column Layout - 2 examples of side-by-side images which collapse on mobile to the right image is positioned either below OR below the left image. 
+* Several common design patterns - Full-width responsive header image, 2-column image sections which stack left-on-right and right-on-left, 2-column text sections and full-width text section.
 * Gmail App autofit killer - A placeholder image that prevents Gmail from 'autofitting' the email and destroying your beautiful responsive layout. 
 
 **Roadmap**
