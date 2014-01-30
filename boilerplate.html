@@ -29,6 +29,14 @@
 		font-family: Georgia, Times, serif;
 	}
 	
+	body,
+	p {
+		
+		font-size:14px;
+		line-height:1.4em;
+		
+	}
+	
 	table {
 		border-collapse: collapse; 
 		mso-table-lspace:0pt; 
@@ -43,6 +51,8 @@
 		border:0;
 		padding:0;
 		margin:0;
+		width:auto;
+		max-width:100%;
 	}
 	
 	span.yshortcuts { color:#000; background-color:none; border:none;}
@@ -58,12 +68,23 @@
 	
 	
 	@media only screen and (max-width: 640px)  {
+			body[yahoo],
+			p {
+				font-size:16px;
+				line-height:1.4em;
+			}
+			
 			body[yahoo] .deviceWidth {width:440px!important; }	
 			body[yahoo] .center {text-align: center !important;}	 
 						
 			body[yahoo] .full {
 				display:block;
 				width:100%;
+				max-width:100% !important;
+			}
+			
+			body[yahoo] .full img {
+				max-width:100% !important;
 			}
 			
 			body[yahoo] .full:first-child {
@@ -79,12 +100,23 @@
 	}
 	
 	@media only screen and (max-width: 440px)  {
+			body[yahoo],
+			p {
+				font-size:16px;
+				line-height:1.4em;
+			}
+	
 			body[yahoo] .deviceWidth {width:340px!important; }	
 			body[yahoo] .center {text-align: center !important;}	 
 						
 			body[yahoo] .full {
 				display:block;
 				width:100%;
+				max-width:100% !important;
+			}
+			
+			body[yahoo] .full img {
+				max-width:100% !important;
 			}
 			
 			body[yahoo] .full:first-child {
@@ -192,11 +224,11 @@
 										<tr valign="top">
 											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-top">
 												<p style="mso-table-lspace:0;mso-table-rspace:0; padding:0; margin:0;">
-													<a href="#"><img src="http://placehold.it/325x400&text=LEFT" alt="" border="0" style="display: block; width:100%; height:auto;"></a>	
+													<a href="#"><img src="http://placehold.it/650x800&text=LEFT" alt="" border="0" style="display: block; width:100%; max-width:325px; height:auto;"></a>	
 												</p>					
 											</td>
 											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-bottom">
-												<a href="#"><img src="http://placehold.it/325x400&text=RIGHT" alt="" border="0" style="display: block; width:100%; height:auto;"></a>						
+												<a href="#"><img src="http://placehold.it/650x800&text=RIGHT" alt="" border="0" style="display: block; width:100%; max-width:325px; height:auto;"></a>						
 											</td>
 										</tr>
 									</table>
@@ -223,11 +255,11 @@
 										<tr valign="top">
 											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-top">
 												<p style="mso-table-lspace:0;mso-table-rspace:0; padding:0; margin:0;">
-													<a href="#"><img src="http://placehold.it/325x400&text=RIGHT" alt="" border="0" style="display: block; width:100%; height:auto;"></a>	
+													<a href="#"><img src="http://placehold.it/325x400&text=RIGHT+2" alt="" border="0" style="display: block; width:100%; max-width:325px; height:auto;"></a>	
 												</p>					
 											</td>
 											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-bottom">
-												<a href="#"><img src="http://placehold.it/325x400&text=LEFT" alt="" border="0" style="display: block; width:100%; height:auto;"></a>						
+												<a href="#"><img src="http://placehold.it/325x400&text=LEFT+2" alt="" border="0" style="display: block; width:100%; max-width:325px; height:auto;"></a>						
 											</td>
 										</tr>
 									</table>
@@ -254,12 +286,12 @@
 										<tr valign="top">
 											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-top">
 												<p style="mso-table-lspace:0;mso-table-rspace:0; padding:20px; margin:0;">
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+													Left 1 text lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
 												</p>					
 											</td>
 											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-bottom">
 												<p style="mso-table-lspace:0;mso-table-rspace:0; padding:20px; margin:0;">
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.						
+													Right 1 text lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.						
 												</p>
 											</td>
 										</tr>
@@ -284,12 +316,45 @@
 							<tr>
 								<td valign="top" style="padding:0" bgcolor="#ffffff">
 									<p style="mso-table-lspace:0;mso-table-rspace:0; padding:20px; margin:0;">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.						
+										Full width text lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.						
 									</p>
 								</td>
 							</tr>         
 						</table>
 						<!-- End One Column -->
+						
+						<!-- Spacer -->
+						<table width="650" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF">
+							<tr>
+								<td valign="top" height="10" style="padding:0" bgcolor="#ffffff">
+									
+								</td>
+							</tr>         
+						</table>
+						<!-- End Spacer -->
+						
+						<!-- Two Column - Image & Text - Left over Right -->
+						<table width="650" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#eeeeed">
+							<tr>
+								<td valign="top" style="padding:0" bgcolor="#ffffff">
+									<table align="right" width="100%" dir="ltr" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+										<tr valign="top">
+											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-top">
+												<p style="mso-table-lspace:0;mso-table-rspace:0; padding:20px; margin:0;">
+													<a href="#"><img src="http://placehold.it/325x250&text=LEFT+3" alt="" border="0" style="display: block; width:100%; max-width:325px; height:auto;"></a>	
+												</p>			 		
+											</td>
+											<td width="50%" dir="ltr" bgcolor="#FFFFFF" class="full pull-bottom">
+												<p style="mso-table-lspace:0;mso-table-rspace:0; padding:20px; margin:0;">
+													Half text lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.						
+												</p>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>         
+						</table>
+						<!-- End Two Column -->
 			       
 			            <!-- Start Footer-->
 						<table width="650" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#000000">
