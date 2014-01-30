@@ -10,5 +10,7 @@ A responsive email template to jumpstart your next HTML email project. It uses m
 
 **Roadmap**
 
-This is an extremely early version and will likely change in the near future. Use at your own risk and test frequently. 
+This is an extremely early version and will likely change in the near future. Use at your own risk and test frequently.
+
+![Full](/demo/images/full.jpg) ![Medium](/demo/images/edium.jpg) ![Small](/demo/images/small.jpg)
 
