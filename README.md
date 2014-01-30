@@ -7,6 +7,10 @@ A responsive email template to jumpstart your next HTML email project. It uses m
 
 * Several common design patterns - Full-width responsive header image, 2-column image sections which stack left-on-right and right-on-left, 2-column text sections and full-width text section.
 * Gmail App autofit killer - A placeholder image that prevents Gmail from 'autofitting' the email and destroying your beautiful responsive layout. 
+* Tested/works in all the major email clients/browser setups - AOL (except IE8), Gmail, Outlook.com, Yahoo, Apple Mail, Entourage, Live Mail, Lotus Notes 8.5, Outlook 2003-2013, Android 2.3+, Android Gmail, iPad Mail, iPad Gmail, iPhone 4+ Mail and Kindle Fire. NOTE: The only devices that support responsive emails are iOS Mail and Android Mail. Other email clients will see the full version of the email.
+
+**Support**
+
 
 **How To Use**
 
