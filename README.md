@@ -9,6 +9,7 @@ A responsive email template to jumpstart your next HTML email project. It uses m
 * Gmail App autofit killer - A placeholder image that prevents Gmail from 'autofitting' the email and destroying your beautiful responsive layout. 
 
 **How To Use**
+
 This boilerplate is meant to be a starting point. After you make your customizations, but before sending the email, you should follow all the standard HTML email best practices. If you're using an ESP like MailChimp the CSS will be automatically inlined. If you're sending this email yourself you should run it through a <a href="http://beaker.mailchimp.com/inline-css">CSS inliner</a>.
 
 **Roadmap**
