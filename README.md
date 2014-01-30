@@ -12,5 +12,17 @@ A responsive email template to jumpstart your next HTML email project. It uses m
 
 This is an extremely early version and will likely change in the near future. Use at your own risk and test frequently.
 
-![Full](/demo/images/full.jpg) ![Medium](/demo/images/edium.jpg) ![Small](/demo/images/small.jpg)
+<table>
+<tr>
+<td>
+![Full](/demo/images/full.jpeg)
+</td>
+<td>
+![Medium](/demo/images/medium.jpeg)
+</td>
+<td>
+![Small](/demo/images/small.jpeg)
+</td>
+</tr>
+</table>
 
