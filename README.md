@@ -22,9 +22,8 @@ This is an extremely early version and will likely change in the future.
 
 <table>
   <tr>
-    <td width="33%" valign="top"><img src="/demo/images/full.jpeg"/></td>
-    <td width="33%" valign="top"><img src="/demo/images/medium.jpeg"/></td>
-    <td width="33%" valign="top"><img src="/demo/images/small.jpeg"/></td>
+    <td width="65%" valign="top"><img src="/demo/images/full.jpeg"/></td>
+    <td width="35%" valign="top"><img src="/demo/images/mobile.jpeg"/></td>
   </tr>
 </table>
 
