@@ -10,19 +10,13 @@ A responsive email template to jumpstart your next HTML email project. It uses m
 
 **Roadmap**
 
-This is an extremely early version and will likely change in the near future. Use at your own risk and test frequently.
+This is an extremely early version and will likely change in the future.
 
 <table>
-<tr>
-<td>
-![Full](/demo/images/full.jpeg)
-</td>
-<td>
-![Medium](/demo/images/medium.jpeg)
-</td>
-<td>
-![Small](/demo/images/small.jpeg)
-</td>
-</tr>
+  <tr>
+    <td width="33%" valign="top"><img src="/demo/images/full.jpeg"/></td>
+    <td width="33%" valign="top"><img src="/demo/images/medium.jpeg"/></td>
+    <td width="33%" valign="top"><img src="/demo/images/small.jpeg"/></td>
+  </tr>
 </table>
 
